@@ -1,0 +1,383 @@
+@media screen and (min-width: 1024px) {
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topo {
+    background-color: #0046B5;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.links {
+    margin-left: 45vw; 
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a {
+    color: #fefefe;
+    text-decoration: none;
+    margin: 5px;
+    text-shadow: 4px 4px 2px #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px; 
+}
+
+
+
+.topo img {
+    margin-left: 10vw;
+    width: 80px;
+    height: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #0046B5;
+    margin-top: 50px;
+    
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.titulo {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: left;
+    width: 1000px;
+    margin-left: 110px;
+    margin-top: -50px; 
+    transform: translateY(0px);
+    animation: float 8s ease-in-out infinite;
+    text-shadow: 4px 4px 2px #000;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-10px); 
+    }
+    50% {
+        transform: translateY(-40px); 
+    }
+    100% {
+        transform: translateY(-10px); 
+    }
+}
+
+
+.cont {
+    background-color: white;
+    text-align: justify;
+}
+
+.informacoes{
+    margin-top: 20px;
+}
+
+.banner{
+    background-attachment: fixed;
+    text-align: center;
+    height: -300px;
+    padding-top: 400px;
+    background-size: cover;
+    padding-bottom: 600px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    padding: 100;
+
+
+
+}
+
+.banner2,.banner4,
+.banner5 {
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 400px;
+    padding-top: 150px;
+    background-size: cover;
+    padding-bottom: 100px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    padding: 100;
+}
+
+.banner {
+    background-image: url(essa.jpeg);
+}
+
+.banner2 {
+    background-image: url(aquela2.jpeg);
+}
+
+
+.banner4 {
+    background-image: url(mel.jpeg);
+}
+
+.cursos {
+    flex: 1;
+    width: calc(50% - 20px);
+    text-align: center;
+
+}
+.inf1 img:hover,
+.inf2 img:hover,
+.inf3 img:hover,
+.inf4 img:hover,
+.inf5 img:hover {
+    transform: scale(1.1); /* zoom */
+}
+
+
+.inf h1{
+    color: #0046B5;
+
+}
+.inf p{
+    font-size: 20px;
+
+}
+.inf{
+    padding-bottom: 100px;
+}
+.inf1 img{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.inf2 img{
+    width: 250px;
+    height: 250px;
+     display: inline-block;
+}
+.inf3 img{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.inf4 img{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.inf5 img{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.inf p{
+    width: 400px;
+    margin-left: 0px;
+} 
+.inf4, .inf5{
+    margin-bottom: -100px;
+    margin-top: 100px;
+}
+.inf1, .inf2, .inf3, .inf4, .inf5{
+     display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 50px;
+    font-size: 15px;
+    box-shadow: 0 0 4px 4px #0046B5;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.b2{   
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 5px;
+    color: #ffffff;
+    text-align: center;
+    width: 1000px;
+    margin-left: 260px; 
+    transform: translatey(0px);
+    animation: float 3s ease-in-out infinite;
+
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.b2, .end, .meio {
+    background-color: #0046B5;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 25%;
+    text-align: center;
+    margin-left: 555px;
+    border-radius: 30px;
+}
+
+.c{
+    background-color: #0046B5;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+}
+
+.contatos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.box-contatos p{
+    background-color: #0046B5;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    text-align: center;
+    margin-left: 440px;
+    border-radius: 30px;
+}
+
+.rodape {
+    background-color: #154da7f7;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: white;
+    right: 200px;
+    width: -100px;
+    padding: 7px;
+    justify-content: center;
+}
+
+span {
+    color: #000000;
+    font-size: 20px;
+}
+
+.final {
+    width: 50%;
+    margin-left: 25%;
+}
+
+iframe {
+    width: 800px;
+    height: 400px;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: -200px;
+}
+.bordered-iframe {
+    border-left: 8px solid #0045b5e4; 
+    border-right: 8px solid #0045b5e4; 
+    border-top: 8px solid #0045b5e4; 
+    border-bottom: 6px solid #0045b5e4; 
+}
+      
+    
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    margin-top: -30px;
+    background-color: #0045b5e4;
+    padding: 15px;
+    padding-bottom: 15px; 
+    width: 59%;
+    margin-left: 305px;
+  }
+  
+  .contact-icons a {
+    display: flex;
+    align-items: center;
+    color: white; 
+    font-size: 15px;
+  }
+  
+  .contact-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .contact-icons .mei {
+    margin-left: 0; 
+  }
+  
+  .contact-icons .me {
+    margin-left: 0; 
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+}
